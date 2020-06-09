@@ -1,0 +1,140 @@
+/*Sistema de regilla*/
+/*PAGINA Principal*//*PAGINA Principal*//*PAGINA Principal*//*PAGINA Principal*//*PAGINA Principal*/
+.ContainerClase{
+	
+		display:grid;
+		grid-gap:0px;
+		grid-template-columns:repeat(1,1fr);
+		grid-template-rows:repeat(4,auto);
+
+		 grid-template-areas:
+							"header "
+							"main "
+							"aside " 
+							"footer "; 
+					
+}
+
+	 .HeaderClase{ 			grid-area:header; 		 	 }	 
+	 .MainClase{ 			grid-area:main; 		 	 } 
+	 .AsideClase { 			grid-area:aside; 		 	 } 	
+ 	 .FooterClase{ 			grid-area:footer; 		 	 } 	
+
+	 /*PAGINA Principal*/ /*PAGINA Principal*/ /*PAGINA Principal*/ /*PAGINA Principal*/ /*PAGINA Principal*/
+	 /*PAGINAS JUEGOS*/
+
+/* .JuegoContenedorClase{ */
+	/* display:grid; */
+	/* grid-gap:2px; */
+/* grid-template-columns:repeat(4,1fr); */
+/* grid-template-rows:repeat(1,auto); */
+
+
+ /* grid-template-areas: */
+ /* "articuloCjuegos articuloCjuegos articuloCjuegos  categoriasJuego   " */
+ /* "articuloCjuegos articuloCjuegos articuloCjuegos  IconoTiendas "; */
+
+	 /* justify-content: center; */
+/* } */
+/* .ArticuloClaseJuegosSingle{ */
+	
+	
+	/* grid-area:articuloCjuegos;  */
+	
+/* } */
+
+/* .IconoTiendasSingle{ */
+	
+	/* grid-area: IconoTiendas;  */
+	
+
+	
+/* } */
+/* .CategoriasJuegoSingle{ */
+	
+	/* grid-area: categoriasJuego;  */
+	
+
+	
+/* } */
+
+
+/* @media(min-width:320px) and (max-width: 760px) and (orientation:portrait){ */
+	
+/* .JuegoContenedorClase{ */
+	/* display:grid; */
+	/* grid-gap:2px; */
+/* grid-template-columns:repeat(4,1fr); */
+/* grid-template-rows:repeat(1,auto); */
+ /* grid-template-areas: */
+ /* "articuloCjuegos articuloCjuegos articuloCjuegos articuloCjuegos  " */
+ /* "articuloCjuegos articuloCjuegos articuloCjuegos articuloCjuegos " */
+ /* "IconoTiendas IconoTiendas categoriasJuego categoriasJuego "; */
+
+	 /* justify-content: center; */
+/* } */
+/* .ArticuloClaseJuegosSingle{ 	grid-area:articuloCjuegos; } */
+
+/* .IconoTiendasSingle{grid-area: IconoTiendas; } */
+
+/* .CategoriasJuegoSingle{grid-area: categoriasJuego;	 } */
+	
+	
+	
+	
+
+/* } */
+/* /*cIERRE DE MEDIACUERY*/ */
+
+
+
+/* @media(min-width:768px) and (max-width:1023px) and (orientation:portrait){ */
+
+/* .JuegoContenedorClase{ */
+	/* display:grid; */
+	/* grid-gap:2px; */
+	/* grid-template-columns:repeat(4,1fr); */
+	/* grid-template-rows:repeat(1,auto); */
+
+	/* grid-template-areas: */
+	/* "articuloCjuegos articuloCjuegos articuloCjuegos articuloCjuegos  " */
+	/* "articuloCjuegos articuloCjuegos articuloCjuegos articuloCjuegos " */
+	/* "IconoTiendas IconoTiendas categoriasJuego categoriasJuego "; */
+
+	/* justify-content: center; */
+/* } */
+/* .ArticuloClaseJuegosSingle{ */
+	
+	
+	/* grid-area:articuloCjuegos;  */
+	
+/* } */
+
+/* .IconoTiendasSingle{ */
+	
+	/* grid-area:IconoTiendas;  */
+	
+
+	
+/* } */
+
+/* .CategoriasJuegoSingle{ */
+	
+	/* grid-area:categoriasJuego;  */
+	
+
+	
+/* } */
+
+
+
+
+
+
+/* } */
+
+
+
+
+
+    

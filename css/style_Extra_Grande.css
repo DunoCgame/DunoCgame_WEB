@@ -1,0 +1,676 @@
+@media(min-width:1440px) and (max-width: 1920px){
+:root{
+	
+	/*color de fondo*/
+	/* --fondo:rgba(115, 115, 115, 0.1); */
+	--fondo:white;
+	/*color de fondo*/
+	/*color de fondo Nav*/
+	--fondoNav:#ffff;
+	/*color de fondo Nav*/
+	/*color de fondo main*/
+	--fondoMain:#ffff;
+	/*color de fondo main*/
+	/*color de fondo sectionarticulos*/
+	--fondosection:#ffff;
+	/*color de fondo articulos*/
+	/*color de fondo articulos*/
+	--fondoArticulos:#ffff;
+	/*color de fondo articulos*/
+	/*color de fondo Aside*/
+	--fondoAside:linear-gradient(to bottom, #ffffff -100%, #000000 100%); 
+	/*color de fondo Aside*/
+	/*color de fondo Footer*/
+	--fondoFooter:black; 
+	/*color de fondo footer*/
+	/*color de texto*/
+	--txtcolor: black;
+	/*color de texto*/
+	/*tipo texto*/
+	 --estiloText: arial;	
+	/*tipo texto*/
+	/*BARA SOCIAL*/
+	--Socialcolor:black;
+	/*twitter*/
+	--Socialcolorfondotwitter:#00abf0;
+	--Socialcolortwitter:#fff;
+	/*facebook*/
+	--Socialcolorfondofacebook:#3b5998;
+	--Socialcolorfacebook:#fff;
+	/*instagram*/
+	--Socialcolorfondoinstagram:linear-gradient(to bottom right, #993366 35%, #ffff00 89%);
+	--Socialcolorinstagram:#fff;
+	/*Patreon*/
+	--SocialcolorfondoPatreon:#ffa31a;
+	--SocialcolorPatreon:#fff;
+	/*youtube*/
+	--Socialcolorfondoyoutube:#e60000;
+	--Socialcoloryoutube:#fff;
+	/*blogger:*/
+	--Socialcolorfondoblogger:#ffb900;
+	--Socialcolorblogger:#fff;
+
+	--Socialcolorfondotwitch:rgb(102, 0, 102);
+	--Socialcolortwitch:#fff;
+
+	--Socialcolorfondogithub:rgb(153, 153, 153);
+	--Socialcolorgithub:#fff;
+	/*BARA SOCIAL*/
+
+}
+
+*{
+	padding:0px;
+	margin:0px;
+	  box-sizing: border-box;
+}
+
+.NavClase__logo__img:hover{
+	box-shadow: 
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+	
+}
+
+.BodyClass{
+	background:grey;
+}
+
+.ContainerClase{
+ width:100%;
+		
+}
+
+
+/*Header*/ /*Header*/ /*Header*/ /*Header*/ /*Header*/
+
+
+.HeaderClase{
+	
+	
+	
+	background-image:url("../Img/ImgR.png"); 
+	width:100%;
+	height:300px;
+	background-position:center center; 
+	background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	
+	
+	
+}
+/*Header*/ /*Header*/ /*Header*/ /*Header*/ /*Header*/
+
+
+/****************Nav-Menu*****************/
+.NavClase{
+
+	overflow:hidden;
+	font-family:arial;
+	
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	
+	background-color:rgba(115, 115, 115, 0.5); 
+	
+	 /* background:green;  */
+	
+	
+	border-radius:10px;
+	
+	display: flex;
+	justify-content: flex-start; 
+
+
+}
+.NavClase__logo>.NavClase__logo__img{
+	background:white;
+	padding:2px;
+	border-radius:50px;
+}
+
+.NavClase .NavClase__Colapse{
+	
+	
+}
+
+.NavClase__BotonMenu{	
+	display:none;
+}
+
+.NavClase .NavClase__Colapse>.Menu__IconoMenu{
+	display:flex;
+	flex-direction:row;
+	margin-top:15px;
+	
+}
+
+
+.NavClase .NavClase__Colapse>.ItenMenu>.item{
+
+list-style:none;
+
+}
+
+.NavClase .NavClase__Colapse>.ItenMenu{
+	display:flex;
+	flex-direction:row;
+	margin-top:15px;
+
+
+}
+
+
+
+.NavClase .NavClase__Colapse>.ItenMenu>.item>.link{
+
+text-decoration:none;
+padding:10px 10px ;
+font-size:25px;
+font-family:arial;
+color:rgba(255, 255, 255, 0.4);
+
+
+
+}
+
+.NavClase .NavClase__Colapse>.ItenMenu>.item>.active{
+ color:rgba(255, 255, 255, 1);
+ 	text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+	
+
+}
+
+.NavClase .NavClase__Colapse>.ItenMenu>.item>.link:hover{
+padding:10px;
+color:white;
+	text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+}
+
+/****************Nav-Menu*****************/
+/****************Social-Menu*****************/
+.ContainerSocial{
+	
+	
+}
+.MenuSocial{
+
+	margin-top:120px;
+	display:flex;  
+	justify-content:center; 
+ 
+
+}
+
+.MenuSocial>.item{
+		list-style:none;
+		float:left;
+		padding: 3px 3px;
+		background:rgba(115, 115, 115, 0.4); 
+		border-radius:10px;
+		margin:5px;
+
+}
+
+.MenuSocial>.item>.link{
+	color:white;
+	text-decoration:none;
+	padding:10px 10px ;
+	font-size:25px;
+}
+
+.MenuSocial>.item>.link{
+	
+		display:inline-block;
+		text-decoration:none;
+		-webkit-transition:500ms ease;
+		-o-transition:all 500ms ease;
+		transition: all 500ms ease;
+		
+}
+
+.MenuSocial>.item>.icon-twitter1:hover{
+		background:var(--Socialcolorfondotwitter);
+		
+		border-radius:10px;
+		padding: 10px 20px; 
+
+		color: var(--Socialcolortwitter);
+		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+}
+
+
+.MenuSocial>.item>.icon-twitch1:hover{
+		background:var(--Socialcolorfondotwitch);
+		border-radius:10px;
+		padding: 10px 20px;
+	
+		color: var(--Socialcolortwitch);
+		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+}
+
+.MenuSocial>.item>.icon-instagram1:hover{
+		background:var(--Socialcolorfondoinstagram);
+		border-radius:10px;
+		padding: 10px 20px;
+		
+		color: var(--Socialcolorinstagram);
+		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+   
+
+.MenuSocial>.item>.icon-youtube1:hover{
+		background:var(--Socialcolorfondoyoutube);
+		border-radius:10px;
+		padding: 10px 20px;
+		
+		color: var(--Socialcoloryoutube);
+		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+
+.MenuSocial>.item>.icon-facebook1:hover{
+		background:var(--Socialcolorfondofacebook);
+		border-radius:10px;
+		padding: 10px 20px;
+	
+		color: var(--Socialcolorfacebook);
+		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+
+/****************Social-Menu*****************/
+/************Main*********/
+.MainClase{
+		background: var(--fondoMain); 
+		text-align: justify;
+		line-height: 1.6;	
+		font-size:14px;
+		font-family:arial;
+	}
+/************Main*********/
+/*******************Seccion******************/
+.SeccionArticulosClase{ 	 	 }
+/*****************Articulos-Post********/
+
+.ArticuloPostClase{
+	background: var(--fondoArticulos);
+	height:202px; 
+	border-bottom: 1px solid black;	
+}
+
+.ArticuloPostClase__Title{ 
+
+	margin-bottom:0px;
+}
+.ArticuloPostClase__Title>.ArticuloPostClase__Title__h2{
+	font-family:var(--estiloTextTitulos);	
+	font-size:30px;
+	margin-top:1px;
+	color:var(--estiloText);
+	text-decoration:none;
+	text-align:center;
+
+}
+
+.ArticuloPostClase__Title>.ArticuloPostClase__Title__h2>.Articulo_tex_link{
+	text-decoration:none;
+	color:black;
+	
+	
+}
+.ArticuloPostClase__Title>.ArticuloPostClase__Title__Date{
+	font-family:var(--estiloTextTitulos);	
+	font-size:20px;
+	color:var(--estiloText);
+	text-decoration:none;
+	text-align:center;
+}
+.ArticuloPostClase__ImgArticulosClase{
+
+	width:40%;
+	height:100%;
+	float:left; 
+	margin-right:20px;
+	border-right: 1px solid black;	
+}
+
+
+.ArticuloPostClase__ImgArticulosClase:hover{
+	-webkit-transition:500ms ease;
+		-o-transition:all 500ms ease;
+			transition: all 500ms ease;
+}
+/* ArticuloPostClase__TextArticuloClase */
+.ArticuloPostClase__TextArticuloClase{
+	
+color:black; 
+padding:10px;
+
+
+	
+}
+
+/*****************Articulos-Post********/
+/*****************Articulos-Juego********/
+.ArticuloJuegoClase{
+
+		width:50%;
+		justify-content:center;
+		flex-direction:row;
+		position:relative;
+		float:left;
+		
+		border: 1px solid gray;	
+   
+}
+
+
+.ArticuloJuegoClase__ImgJuegoClase{
+	
+	margin:auto; 
+	display:block; 
+	width:100%; 
+	height:300px; 
+	
+	padding:3px;
+	
+}
+
+
+.botonJuego{
+
+	/* width:200px; */
+	/* height:40px; */
+	/* font-size:20px; */
+	/* margin:25px; */
+
+}
+
+.Boton{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);	
+}
+
+
+.Boton__botonVerJuego{
+	background-color:rgba(115, 115, 115, 0.4);  
+	color:grey;
+	border: 2px solid gray; 
+	border-radius:20px;
+	width:100px;
+	height:50px;
+	font-size:40px;
+	margin:25px;
+}
+
+.Boton__botonVerJuego:hover {
+    color: white;
+		box-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+			
+		text-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+}
+
+.ArticuloPostClase__Title>.ArticuloPostClase__Title__h2>.Articulo_tex_link{
+	text-decoration:none;
+	color:black;
+	
+	
+}
+/*****************Articulos-Juego********/
+
+/*******************Seccion******************/
+/*******************Aside*****************/
+.AsideClase{
+	background: var(--fondoAside);   
+	box-sizing: border-box;
+	margin-top:0px;
+	padding:20px;
+}
+
+.AsideClase>.AsideClase__text{
+	color:white;
+	text-align:justify;
+	line-height:1.5;
+	font-size:14px;
+	font-family:arial;
+}
+/*******************Aside*****************/
+
+/*****************Footer*****************/
+.FooterClase{
+	clear:both;
+	padding: 15px 0px;
+	background:var(--fondoFooter);
+	color:white;
+	text-align: center;
+	font-size:16px;
+}
+
+
+/*****************Footer*****************/
+/*****************Articulos-single-noticia********/
+
+.ArticuloPostClase__SingleNovedades{
+	/* background: var(--fondoArticulos); */
+	justify-content:center;
+		flex-direction:row;
+		position:relative;
+		float:left;
+		
+		border: 1px solid gray;	
+}
+
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__Title{ 
+
+	margin-bottom:0px;
+}
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__Title>.ArticuloPostClase__Title__h2{
+	font-family:var(--estiloTextTitulos);	
+	font-size:30px;
+	margin-top:1px;
+	color:var(--estiloText);
+	text-decoration:none;
+	text-align:center;
+
+}
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__Title>.ArticuloPostClase__Title__Date{
+	font-family:var(--estiloTextTitulos);	
+	font-size:20px;
+	color:var(--estiloText);
+	text-decoration:none;
+	text-align:center;
+}
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__ImgArticulosClase{
+
+	margin:auto; 
+	padding:5px;
+	display:block; 
+	width:100%; 
+	height:300px; 	
+}
+
+
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__ImgArticulosClase:hover{
+	-webkit-transition:500ms ease;
+		-o-transition:all 500ms ease;
+			transition: all 500ms ease;
+}
+/* ArticuloPostClase__TextArticuloClase */
+.ArticuloPostClase__SingleNovedades>.ArticuloPostClase__TextArticuloClase{
+	
+color:black; 
+padding:10px;
+
+
+	
+}
+
+/*****************Articulos-single-noticia********/
+/*****************Articulos-single-Juego********/
+.SeccionJuegosClase_SingleJuego{
+	
+
+	
+	 display: flex;
+  flex-direction: row;
+}
+
+.ArticuloPostClase_SingleJuego{
+	
+	width:80%;
+	
+	
+}
+
+
+.Menu_Tiemdas{
+	width:20%;
+  background:linear-gradient(to top, #000000 0%, #ffffff 120%); 
+	
+
+
+}
+
+.Menu_Tiemdas>.Title_Tiemdas{
+	
+	color:white;
+	margin-top:0px;
+	margin-bottom:7px;
+	font-size:30px;
+	text-align:center;
+	text-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+}
+
+.Menu_Tiemdas>.Lista{
+	
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 1fr);
+
+	
+}
+
+.Menu_Tiemdas>.Lista>.Item{
+	
+		list-style:none;
+	text-align:center;
+	margin:6px;
+	padding-bottom:10px;
+}
+.Menu_Tiemdas>.Lista>.Item>.Link{
+	
+color:white;
+font-size:40px;
+
+}
+.Menu_Tiemdas>.Lista>.Item>.Link:hover{
+
+text-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+
+}
+
+
+
+/*****************Articulos-single-Juego********/
+
+/****post-relacionados***/
+.Post_Relacionados_Contenedor{
+	display:flex;
+	width:100%; 
+	
+	
+}
+.Post_Relacionados{
+		 width:100%;
+		/* height:200px; */
+		height:auto;
+		position:relative;
+
+	
+}
+.Post_Relacionados_img{
+	position:relative;
+	
+	width:100%;
+	height:200px;
+
+padding:0.5px;
+
+	
+	
+}
+	
+	.boton_post_relacionados{
+	
+
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);	
+
+	background-color:rgba(115, 115, 115, 0.4);  
+	color:grey;
+	
+	border: 2px solid gray; 
+	border-radius:20px;
+	
+	width:80px;
+	height:40px;
+	
+	font-size:30px;
+	margin:25px;
+}
+
+.boton_post_relacionados:hover {
+    color: white;
+		box-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+			
+		text-shadow: 
+			0 0 5px rgba(255, 255, 255, 1),
+			0 0 10px rgba(255, 255, 255, 1);
+}
+/****post-relacionados***/
+
+
+
+
+}
+
+
